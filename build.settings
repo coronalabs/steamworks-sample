@@ -1,0 +1,36 @@
+--
+-- For more information on build.settings see the Corona SDK Build Guide at:
+-- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
+--
+
+settings =
+{
+	orientation =
+	{
+		default = "landscapeRight",
+		supported = { "landscapeRight", "landscapeLeft" }
+	},
+
+	plugins =
+    {
+        ["plugin.steamworks"] =
+        {
+            publisherId = "com.coronalabs",
+            supportedPlatforms = { osx=true, win32=true },
+        },
+    },
+    
+	window =
+	{
+		titleText =
+		{
+			default = "Steamworks Plugin",
+		},
+		defaultViewWidth = 1280,
+		defaultViewHeight = 720,
+		minViewWidth = 960,
+		minViewHeight = 640,
+	},
+
+
+}
