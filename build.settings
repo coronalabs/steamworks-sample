@@ -1,5 +1,5 @@
 --
--- For more information on build.settings see the Corona SDK Build Guide at:
+-- For more information on build.settings see here:
 -- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
 --
 
@@ -15,8 +15,7 @@ settings =
     {
         ["plugin.steamworks"] =
         {
-            publisherId = "com.coronalabs",
-            supportedPlatforms = { osx=true, win32=true },
+            publisherId = "com.coronalabs"
         },
     },
     
@@ -31,6 +30,4 @@ settings =
 		minViewWidth = 960,
 		minViewHeight = 640,
 	},
-
-
 }
